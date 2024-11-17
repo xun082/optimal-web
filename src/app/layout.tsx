@@ -34,7 +34,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased h-screen flex`}
         suppressHydrationWarning={true}
       >
-        <ThemeProvider attribute="class">
+        <ThemeProvider attribute="class" defaultTheme="light">
           <SidebarProvider>
             {/* 侧边栏 */}
             <AppSidebar />
