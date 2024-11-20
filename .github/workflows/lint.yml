@@ -30,3 +30,6 @@ jobs:
 
       - name: Lint
         run: pnpm run lint:ci
+
+      - name: Type Check
+        run: pnpm run type-check
